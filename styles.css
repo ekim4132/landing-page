@@ -1,5 +1,29 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    gap: 22px;
+}
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
