@@ -120,3 +120,25 @@ button {
     color: grey;
     text-align: center;
 }
+
+/* QUOTE */
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 300px;
+    background-color: #e5e7eb;
+    align-items: stretch;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quotee {
+    text-align: right;
+    font-weight: 800;
+    font-size: 24px;
+}
