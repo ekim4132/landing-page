@@ -143,3 +143,47 @@ a {
     font-weight: 800;
     font-size: 24px;
 }
+
+/* CALL */
+
+.call {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 200px;
+}
+
+.call-container {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 50px 125px;
+    justify-content: space-between;
+
+}
+
+.call-header {
+    font-weight: 800;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.call-subtext {
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.call-right {
+    flex-shrink: 0;
+}
+
+.call-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 6px;
+    border: 2px solid #f9faf8;
+    padding: 6px 28px;
+    font-size: 18px;
+}
+
+
